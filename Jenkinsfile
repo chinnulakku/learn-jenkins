@@ -8,7 +8,7 @@ pipeline {
         Greeting = 'Hello Jenkins'
     }
     options {
-        timout(time: 1, unit: 'HOURS')
+        timout(time: 1 , unit: 'HOURS')
         disableConcurrentBuilds()
     }  
     parameters {
