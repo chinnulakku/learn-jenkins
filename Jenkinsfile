@@ -7,6 +7,7 @@ pipeline {
     environment {
         Greeting = 'Hello Jenkins'
     }
+    
     options {
         timout(time: 1 , unit: 'HOURS')
         disableConcurrentBuilds()
